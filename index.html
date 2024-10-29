@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>The Batman: A jornada misteriosa</title>
+</head>
+
+<header>THE BATMAN: A JORNADA MISTERIOSA</header>
+
+<body>
+    <main>
+        <div class="passo ativo" id="etapa-0">
+            <img src="img/cenario-etapa0.png" alt="">
+            <p>Batman recebe uma mensagem misteriosa e criptografada em seu sistema de comunicação. A mensagem, cheia de
+                códigos e símbolos desconhecidos, parece ser um aviso urgente sobre um grande ataque iminente em Gotham.
+                Ele sabe que precisa agir rapidamente, mas deve decidir seu próximo passo com cuidado.</p>
+            <button class="btn-proximo" data-proximo="1">Investigar o local do ataque</button>
+            <button class="btn-proximo" data-proximo="2">Seguir outra pista</button>
+            <button class="btn-proximo" data-proximo="3">Ignorar as pistas e agir por instinto</button>
+        </div>
+        <div class="passo" id="etapa-1">
+            <p>Batman decide investigar o local do suposto ataque. Ele se move rapidamente pelo submundo de Gotham,
+                usando seu conhecimento dos becos e ruas para chegar antes que seja tarde demais. Ao chegar, ele
+                encontra sinais de uma emboscada e deve agora interpretar as pistas deixadas para trás.</p>
+            <button class="btn-proximo" data-proximo="4">Analisar as pistas</button>
+            <button class="btn-proximo" data-proximo="5">Seguir o rastro imediato </button>
+        </div>
+        <div class="passo" id="etapa-2">
+            <p>No local do ataque, Batman encontra evidências cruciais que indicam que o vilão já esteve lá, mas parece
+                ter deixado pistas propositais para enganá-lo. Ele precisa determinar se deve seguir essas pistas ou
+                ignorá-las e usar sua intuição. Esse é o momento em que sua habilidade de dedução será testada.</p>
+            <button class="btn-proximo" data-proximo="5">Confiar no informante</button>
+            <button class="btn-proximo" data-proximo="4">investigar mais antes de agir</button>
+        </div>
+        <div class="passo" id="etapa-3">
+            <p>O herói ignora as pistas e parte direto para o covil do vilão, acreditando que uma abordagem mais
+                agressiva pode ser eficaz. Essa decisão o leva a um confronto direto mais cedo do que o esperado.</p>
+            <button class="btn-proximo" data-proximo="9">Entrar pela força</button>
+            <button class="btn-proximo" data-proximo="11">Planejar uma emboscada</button>
+        </div>
+
+        <div class="passo" id="etapa-4">
+            <p>No decorrer da investigação, Batman se depara com uma emboscada dos capangas, que estão apenas
+                cumprindo ordens. Ele pode enfrentá-los diretamente ou traçar um plano mais elaborado para capturá-los,
+                a fim de seguir a trilha até o verdadeiro vilão.</p>
+            <button class="btn-proximo" data-proximo="7">Observar e planejar</button>
+            <button class="btn-proximo" data-proximo="8">Lutar diretamente</button>
+        </div>
+
+        <div class="passo" id="etapa-5">
+            <p>No esconderijo, Batman encontra cidadãos de Gotham mantidos como reféns, usados como isca para
+                distraí-lo. Ele precisa decidir rapidamente se resgata os reféns ou continua perseguindo o vilão. </p>
+            <button class="btn-proximo" data-proximo="7">Seguir para capturar o vilão</button>
+            <button class="btn-proximo" data-proximo="6">Resgatar os reféns</button>
+        </div>
+
+        <div class="passo" id="etapa-6">
+            <p>Após resgatar os reféns, o herói percebe que o vilão está se movendo. Ele pode persegui-lo imediatamente
+                ou voltar para buscar mais informações antes de continuar.</p>
+            <button class="btn-proximo" data-proximo="9">Perseguir o vilão</button>
+            <button class="btn-proximo" data-proximo="10">Buscar mais informações</button>
+        </div>
+
+        <div class="passo" id="etapa-7">
+            <p>Após uma série de confrontos, Batman localiza o esconderijo do vilão principal e se prepara para
+                capturá-lo. Ele agora deve decidir como invadir o covil do vilão: pela entrada principal, arriscando-se
+                a uma armadilha, ou procurar uma entrada lateral, esperando uma abordagem mais furtiva.</p>
+            <button class="btn-proximo" data-proximo="9">Entrar pela porta principal</button>
+            <button class="btn-proximo" data-proximo="10">Procurar entrada lateral</button>
+        </div>
+
+        <div class="passo" id="etapa-8">
+            <p>Sem tempo para planejar, Batman entra com tudo no covil, decidido a pegar o vilão de surpresa. No
+                entanto, ele subestima as armadilhas e a astúcia do inimigo, ficando preso em um cenário caótico.</p>
+            <button class="btn-proximo" data-proximo="11">Planejar uma emboscada</button>
+            <button class="btn-proximo" data-proximo="9">Entrar pela força</button>
+        </div>
+
+        <div class="passo" id="etapa-9">
+            <p>Seguindo o rastro do vilão, Batman se depara com uma série de armadilhas letais. Ele pode tentar
+                desarmá-las ou recuar antes de ficar completamente encurralado, buscando outra rota.</p>
+            <button class="btn-proximo" data-proximo="12">Tentar desarmar as armadilhas com cautela</button>
+            <button class="btn-proximo" data-proximo="10">Recuar e procurar uma rota alternativa</button>
+        </div>
+
+        <div class="passo" id="etapa-10">
+            <p>No meio da missão, um antigo aliado de Batman surge com uma oferta de ajuda. Batman se vê diante de uma
+                escolha: aceitar o apoio, lembrando dos tempos em que lutaram lado a lado, ou seguir sozinho, consciente
+                de que confiar novamente traz seus próprios riscos. A lealdade de outrora é um conforto, mas a
+                desconfiança permanece, deixando sua decisão em suspenso.</p>
+            <button class="btn-proximo" data-proximo="13">Seguir sozinho</button>
+            <button class="btn-proximo" data-proximo="12">Confiar no aliado</button>
+        </div>
+
+        <div class="passo" id="etapa-11">
+            <p>Batman acaba caindo em uma emboscada preparada pelo vilão. Ele tenta escapar das armadilhas, mas o cerco
+                é apertado, e o tempo está se esgotando. Dependendo das escolhas feitas antes, este caminho pode levá-lo
+                a um final catastrófico.</p>
+            <button class="btn-proximo" data-proximo="12">Seguir o vilão discretamente até seu covil</button>
+            <button class="btn-proximo" data-proximo="13">Emboscar o vilão</button>
+        </div>
+
+        <div class="passo" id="etapa-12">
+            <p>Após seguir pistas e enfrentar diversos obstáculos, Batman finalmente chega ao covil do vilão. O local
+                está cercado por armadilhas e guardas, um ambiente hostil preparado para o confronto final. Cada passo
+                agora é decisivo, e o herói deve usar todo o seu treinamento para entrar sem ser detectado e planejar o
+                movimento final contra seu inimigo.</p>
+            <button class="btn-proximo" data-proximo="14">Enfrentar o vilão diretamente</button>
+            <button class="btn-proximo" data-proximo="15">Usar táticas furtivas</button>
+        </div>
+
+        <div class="passo" id="etapa-13">
+            <img src="img/cenario-etapa13.png" alt="Final alternativo 3: Gotham destruída">
+            <p>Devido a uma ação precipitada, Batman falha em sua missão. O vilão toma controle de Gotham, e a cidade é
+                destruída. Esse final trágico revela as consequências de subestimar o inimigo e agir sem o devido
+                cuidado.</p>
+        </div>
+
+        <div class="passo" id="etapa-14">
+            <p>Batman finalmente se encontra cara a cara com o vilão em um confronto decisivo. O ambiente é hostil, e o
+                inimigo está pronto para qualquer investida. Batman percebe que pode desviar o foco do vilão, tirando
+                sua atenção para criar uma oportunidade de ataque, ou usar os pontos fracos que identificou ao longo da
+                batalha para vencer de forma estratégica. O destino de Gotham está em suas mãos.</p>
+            <button class="btn-proximo" data-proximo="16">Desviar o foco do vilão</button>
+            <button class="btn-proximo" data-proximo="17">Usar os pontos fracos do vilão</button>
+        </div>
+
+        <div class="passo" id="etapa-15">
+            <p>No meio da batalha intensa, o vilão já parece estar à beira da derrota, mas seu olhar revela desespero:
+                ele está à procura de uma oportunidade para fugir. Batman sabe que este é o momento decisivo, mas há uma
+                dúvida crescente. Se agir rapidamente, pode pegar o vilão de surpresa, enfraquecendo-o o suficiente para
+                uma captura definitiva. No entanto, qualquer erro pode ser fatal. Uma abordagem mais cuidadosa pode
+                garantir que ele não escape, mas será arriscado e pode dar tempo ao vilão para reagir. O risco de falhar
+                é grande, e a escolha deve ser feita com precisão.</p>
+            <button class="btn-proximo" data-proximo="16">Usar uma distração para enfraquecer o vilão antes de
+                capturá-lo.</button>
+            <button class="btn-proximo" data-proximo="17">Criar uma armadilha para impedir a fuga do vilão</button>
+        </div>
+
+        <div class="passo" id="etapa-16">
+            <img src="img/cenario-etapa16.png" alt="Final alternativo 1: Batman derrota o vilão">
+            <p>Após uma batalha árdua e cheia de reviravoltas, Batman consegue superar o vilão. Usando sua inteligência
+                e habilidades, ele desarma o inimigo e impede seus planos de destruir Gotham. A cidade está a salvo, e o
+                vilão é levado à justiça. Embora a luta tenha sido difícil, o herói provou mais uma vez que, com
+                determinação e estratégia, o bem pode triunfar sobre o mal.</p>
+        </div>
+
+        <div class="passo" id="etapa-17">
+            <img src="img/cenario-etapa17.png" alt="Final alternativo 2: O vilão escapou">
+            <p>Gotham está devastada, com prédios em ruínas e ruas desertas, criando um cenário caótico. O vilão, astuto
+                e determinado, se aproveita da situação para tentar escapar pelas sombras. Entre os destroços e carros
+                abandonados, sua silhueta se move rapidamente, em uma fuga desesperada da justiça. Apesar dos esforços
+                de Batman, ele consegue escapar no último momento, desaparecendo nas sombras. O herói, exausto,
+                reconhece que, embora não tenha capturado seu inimigo desta vez, aprendeu lições valiosas. Ele sabe que
+                a luta está longe do fim e que estará mais preparado na próxima vez que se cruzarem. Gotham sobrevive,
+                mas a ameaça persiste.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
